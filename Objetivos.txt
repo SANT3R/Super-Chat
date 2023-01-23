@@ -1,0 +1,15 @@
+1. Crear un chat completo: 
+ a) Mensajes
+ b) Emoticones
+ c) stickers
+ d) Poder enviar videos, imagenes, enlaces
+2. la pantalla principal se dividira en 3, a la izquierda los diferentes chats separados por 3 columnas, a la derecha el perfil el cual se podra editar tanto el perfil como el diseño de la pantalla
+y la parte superior una barra para buscar, filtros mostrar mensajes nuevos, configuracion, etc.
+ a) Al seleccionar un chat, se cambia por el espacio y se agrandara el mismo provocando que ahora sean 2 columnas hacia abajo.
+ b) los chats estaran moviendose hacia una dirección como animacion.
+ c) Se podra editar la cantidad de columnas que se quiera ver, la cantidad de conjuntos de chats como amigos, familia, trabajo, recientes, etc. Y editar otras cosas como la animacion y los elementos agregados.
+ d) se puede colocar varios chats abiertos en la pantalla, segun el usuario.
+
+ Pages: 1 Pagina Princiapl, 2 llamada, 3 video llamada
+ Layouts: 1 Chats(izquierda), 2 Chat abierto(derecha), 3 barra(arriba)
+ UI: 1 chat, 2 mensajes, 3 imagen, 4 input o campo para escribir, 5 boton.
