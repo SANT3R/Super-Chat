@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const verChat = () => {
+export const VerChat = () => {
   return (
     <div>verChat</div>
   )

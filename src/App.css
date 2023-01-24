@@ -1,32 +1,6 @@
-header {
-  width: 100%;
-  height: 3.5em;
-  display: flex;
-  align-items: center;
-}
 
 /* Clases */
-.filtros {
-  width: 30%;
-}
-
-.buscador {
-  width: 35%;
-}
-
-.miChat {
-  width: 15%;
-  display: flex;
-}
-
-.comun-nav {
-  height: 100%;
-  background-color: #0069c0;
-}
-
-.miChat img {
+.imgPerfil {
   width: 50px;
   height: 50px;
 }
-
-/* Identificadores */
