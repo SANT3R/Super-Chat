@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div className='filtros'>
+        <div className='filtros comun-nav'>
           <select>
             <option value="Todos" >Todos</option>
             <option value="Familia">Familia</option>
@@ -16,10 +16,11 @@ function App() {
             <option value="Recientes">Recientes</option>
             <option value="Nuevos">Nuevos</option>
           </select>
-          <input placeholder="Buscar" />
-          <h4>Mensaje</h4>
         </div>
-        <div className='miChat'>
+        <div className='buscador comun-nav'>
+          <input placeholder="Buscar" />
+        </div>
+        <div className='miChat comun-nav'>
           <img src={imgPerfil} alt="img-perfil"></img>
           <h4>Mi Nombre</h4>
         </div>
