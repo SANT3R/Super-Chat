@@ -6,9 +6,7 @@ export const ListaChats = () => {
   return (
     <article className='grupoChats'>
       <MiniChat Nombre='Tilin' Fecha='Ayer' Mensaje='Eso tilin' />
-      <MiniChat />
-      <MiniChat />
-      <MiniChat />
+      <MiniChat Nombre='Susana Oria' Fecha='Ayer' Mensaje='Pablito clavo un clavito' />
       <MiniChat />
     </article>
   )

@@ -1,1 +1,29 @@
 /* Clases */
+.miniChat {
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  padding: 8px 5px;
+  border-radius: 20px;
+  border: solid 2px black;
+  border-top: none;
+}
+
+.txt-miniChat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.parte1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.parte2 {
+  width: 100%;
+}
