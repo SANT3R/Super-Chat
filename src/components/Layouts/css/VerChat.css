@@ -1,0 +1,86 @@
+
+/*Elementos de panelMsj */
+.panelMsj {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.panelMsj h5 {
+  width: 100%;
+  color: gray;
+  text-align: center;
+}
+
+.panelMsj div p{
+  width: auto;
+  padding: 5px;
+}
+
+.msjDer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.msjDer #der{
+  background-color: #3df883;
+  text-align: end;
+  border-radius: 5px;
+}
+
+.msjIzq {
+  width: 100%;
+  display: flex;
+}
+
+.msjIzq #izq{
+  background-color: #ff9a3e;
+  text-align: start;
+  border-radius: 5px;
+}
+
+/*Elementos de enviar Msj*/
+
+
+.campoEscritura input{
+  width: 97%;
+  min-height: 63%;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
+  outline: none;
+}
+
+.campoEscritura input:focus {
+  box-shadow: 0 0 5px -1 black inset;
+}
+
+/* Clases */
+.personaChat {
+  width: 100%;
+  height: 10%;
+  background-color: #2196f3;
+  display: flex;
+}
+
+.campoEscritura {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid #b6b6b6;
+  align-items: center;
+  box-shadow: 0 0 15px -2px grey inset;
+}
+
+.msj-iconos {
+  width: 95%;
+  height: 1.5rem;
+  display: flex;
+  padding: 5px;
+  border-top: 1px solid #b8b8b893;
+}
+

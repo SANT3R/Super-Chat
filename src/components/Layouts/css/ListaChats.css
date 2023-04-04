@@ -1,8 +1,25 @@
 /* Clases */
 .grupoChats {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1;
-    padding: 0 5px;
+  max-height: 35rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+  gap: 10px;
+}
+
+.grupoChats h3{
+  margin-bottom: 1rem;
+  height: auto;
+  text-align: center;
+  padding: 10px; 
+  background-color: #137fd9;
+  border-radius: 5px;
+  
+}
+
+@media only screen and (max-width: 1336px){
+  .grupoChats {
+    width: 15rem;
+  }
 }

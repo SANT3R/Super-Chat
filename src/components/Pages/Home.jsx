@@ -1,7 +1,8 @@
 import React from 'react';
+import './css/Home.css'
 import imgPerfil from '../images/img_perfil.png';
 import { ListaChats } from '../Layouts/ListaChats';
-import './css/Home.css'
+import { VerChat } from '../Layouts/VerChat';
 
 export const Home = () => {
   return (
@@ -25,7 +26,7 @@ export const Home = () => {
         </div>
         <div className='miChat comun-nav'>
           <h4>Mi Nombre</h4>
-          <img src={imgPerfil} alt='img-perfil' className='imgPerfil'></img>
+          <img src={imgPerfil} alt='img-perfil' className='imgPerfil' />
         </div>
       </header>
       <main>
@@ -33,9 +34,10 @@ export const Home = () => {
           <ListaChats />
           <ListaChats />
           <ListaChats />
+          <ListaChats />
         </section>
         <section className='campo-Chat'>
-
+          <VerChat />
         </section>
       </main>
     </div>

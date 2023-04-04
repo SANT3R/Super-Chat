@@ -13,3 +13,7 @@ y la parte superior una barra para buscar, filtros mostrar mensajes nuevos, conf
  Pages: 1 Pagina Princiapl, 2 llamada, 3 video llamada
  Layouts: 1 Chats(izquierda), 2 Chat abierto(derecha), 3 barra(arriba)
  UI: 1 chat, 2 mensajes, 3 imagen, 4 input o campo para escribir, 5 boton.
+
+ https://paletadecolores.online/naranja/
+
+ Tema Oscuro: background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
